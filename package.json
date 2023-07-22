@@ -1,0 +1,18 @@
+{
+  "name": "elements",
+  "version": "1.0.0",
+  "description": "Elements is a minimalist writing theme for Obsidian.",
+  "scripts": {
+    "css:watch": "postcss src/theme.css --output theme.css --env development --watch",
+    "css:build": "postcss src/theme.css --output theme.css --env production"
+  },
+  "author": "Simon McKeon",
+  "license": "ISC",
+  "volta": {
+    "node": "18.17.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0"
+  }
+}

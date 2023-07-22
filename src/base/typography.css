@@ -1,0 +1,80 @@
+.theme-light,
+.theme-dark {
+  --h1-size: var(--typography-size-4xl) !important;
+  --h2-size: var(--typography-size-3xl) !important;
+  --h3-size: var(--typography-size-2xl) !important;
+  --h4-size: var(--typography-size-xl) !important;
+  --h5-size: var(--typography-size-lg) !important;
+  --h6-size: var(--typography-size-base) !important;
+}
+
+.theme-light {
+  --text-normal: var(--tw-color-gray-800) !important;
+
+  --h1-color: var(--tw-color-gray-800) !important;
+  --h2-color: var(--tw-color-gray-700) !important;
+  --h3-color: var(--tw-color-gray-700) !important;
+  --h4-color: var(--tw-color-gray-700) !important;
+  --h5-color: var(--tw-color-gray-600) !important;
+  --h6-color: var(--tw-color-gray-600) !important;
+
+  --blockquote-background-color: var(--tw-color-gray-100) !important;
+
+  --code-background: var(--tw-color-gray-100) !important;
+
+  --hr-color: var(--tw-color-gray-200) !important;
+}
+
+.theme-dark {
+  --text-normal: var(--tw-color-gray-300) !important;
+
+  --h1-color: var(--tw-color-gray-100) !important;
+  --h2-color: var(--tw-color-gray-200) !important;
+  --h3-color: var(--tw-color-gray-200) !important;
+  --h4-color: var(--tw-color-gray-200) !important;
+  --h5-color: var(--tw-color-gray-300) !important;
+  --h6-color: var(--tw-color-gray-300) !important;
+
+  --blockquote-background-color: var(--tw-color-gray-800) !important;
+
+  --code-background: var(--tw-color-gray-800) !important;
+
+  --hr-color: var(--tw-color-gray-800) !important;
+}
+
+.cm-header-6,
+h6 {
+  text-transform: uppercase;
+  letter-spacing: .025rem;
+}
+
+.HyperMD-quote,
+blockquote {
+  padding: 2rem !important;
+  border-radius: 0 !important;
+}
+
+.HyperMD-codeblock,
+pre {
+  padding: 0rem 2rem !important;
+  border-left: var(--blockquote-border-thickness) solid var(--blockquote-border-color);
+  border-radius: 0 !important;
+}
+
+.HyperMD-codeblock-begin {
+  padding-top: 1rem !important;
+}
+
+.HyperMD-codeblock-end {
+  padding-bottom: 1rem !important;
+}
+
+pre {
+  padding: 2rem !important;
+}
+
+.media-embed {
+  width: 100% !important;
+  display: grid !important;
+  place-items: center;
+}

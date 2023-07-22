@@ -1,0 +1,15 @@
+.theme-light {
+  --background-primary: var(--tw-color-gray-100);
+  --background-primary-alt: var(--tw-color-gray-100);
+  --background-secondary: var(--tw-color-gray-200);
+  --background-secondary-alt: var(--tw-color-gray-200);
+  --background-tertiary: var(--tw-color-gray-300);
+}
+
+.theme-dark {
+  --background-primary: var(--tw-color-gray-800);
+  --background-primary-alt: var(--tw-color-gray-800);
+  --background-secondary: var(--tw-color-gray-900);
+  --background-secondary-alt: var(--tw-color-gray-900);
+  --background-tertiary: var(--tw-color-gray-900);
+}
